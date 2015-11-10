@@ -32,7 +32,22 @@
 
 	<br class="clear">
 
-	<%= yield %>
+	<div class="container">
+		<%= yield %>
+	</div><!-- /.container -->
+
+	<div class="footer">
+		<div class="container">
+			<div class="col-xs-6">
+				<%= link_to "This isn't enough, I need more", '#', class: 'next-quote' %>
+			</div><!-- /.col-xs-6 -->
+			<div class="col-xs-6 footer-blurb">
+				Proudly produced in Columbus, OH by <a href="http://millennialsforchrist.com">Justin</a>
+				<br>
+				Want to build your own Splurty Web App? - <a href="http://thefirehoseproject.com">Learn how to code here</a>
+			</div><!-- /.col-xs-6 -->
+		</div><!-- /.container -->
+	</div><!-- /.footer -->
 
 </body>
 </html>
