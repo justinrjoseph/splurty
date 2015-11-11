@@ -47,6 +47,9 @@
 		border-bottom: 1px solid #dfdfdf;
 		font-family: 'geometria_lightlight', sans-serif;
 		font-weight: bold;
+		&:first-of-type {
+			margin-right: 10px;
+		}
 	}
 }
 
@@ -75,12 +78,6 @@ h2 {
 	text-decoration: none;
 }
 
-@media (max-width: 750px) {
-	.footer-blurb {
-		text-align: left;
-	}
-}
-
 .quote-id {
 	color: #ddd;
 	font-family: 'geometria_lightlight', sans-serif;
@@ -92,4 +89,16 @@ h2 {
 
 ::selection {
 	background-color: #f84342;
+}
+
+@media (max-width: 750px) {
+	.footer-blurb {
+		text-align: left;
+	}
+}
+
+@media (max-width: 760px) {
+	.footer-blurb {
+		margin-top: 20px;
+	}
 }
